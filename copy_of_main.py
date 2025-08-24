@@ -11,5 +11,5 @@ import streamlit as st
 st.title("My first streamlit app")
 st.write("Hello! Creating a simple web application using streamlit")
 st.text_input("Enter your name")
-if st.button("submit")
+if st.button("submit"):
 st.write(f"hello, (name): welcome to streamlit")
